@@ -43,6 +43,7 @@ public class Juego extends Application implements EventHandler<KeyEvent> {
 		ventana.setWidth(ANCHO_PANTALLA);
 		ventana.setHeight(ALTO_PANTALLA);
 		ventana.setTitle("SNAKE");
+		ventana.setResizable(false);
 		raiz = new Group();
 		Scene escena = new Scene(raiz, Color.NAVY);
 		ventana.setScene(escena);
